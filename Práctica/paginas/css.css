@@ -1,0 +1,87 @@
+.cabecera  h1{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(99, 134, 99);
+    color: black;
+    
+   
+}
+h1 {
+    align-content: center;
+    
+}
+
+
+.contenedor_enlaces{
+    display: flex;
+}
+
+
+.contenedor_enlaces .enlaces ul {
+    display: flex;
+}
+
+.contenedor_enlaces .enlaces ul li{
+    list-style: none;
+    margin-left: 10px;
+    align-items: center;
+}
+
+
+
+
+.botones{
+    background-color: rgb(208, 233, 208);
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.botones button {
+    margin-right: 10px;
+} 
+
+.enlaces {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(208, 233, 208);
+    color: black;
+               
+}
+.columna1{
+    width: 35%;
+    height: 30%;
+    background-color: rgb(223, 243, 223);
+    color: black;
+
+}
+.columna2{
+    width: 64%;
+    height: 70%;
+    background-color: rgb(223, 243, 223);
+    color: black;
+}
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+.columna1 img{
+    width: 100%;
+    height: 100%;
+
+}
+.parte2 img{
+    width: 100%;
+    height: 100%;
+}
+.columna2 img{
+    width: 100%;
+    height: 100%;
+}
+footer{
+    background-color:  rgb(223, 243, 223);
+    width: 100%;
+    height: 50px;
+    align-content: center;
+}
